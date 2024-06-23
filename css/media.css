@@ -25,6 +25,9 @@
 }
 
 @media only screen and (max-width:1200px) {
+    .bottom1-web div:nth-child(2) {
+        margin-left: 40px;
+      }
     .bottom5{background: #dfd3ca;}
     .bot5-con h2{
         text-align: center;
@@ -37,9 +40,9 @@
 }
 
 @media only screen and (max-width:1090px) {
-    .bot3-con ul li img{width: 260px;}
-    .bot3-con ul{flex-wrap: wrap;gap: 20px;}
-    .bot3-con h2{font-size: 95px;line-height: 100%;}
+    /* .bot3-con ul li img{width: 260px;}     */
+    /* .bot3-con ul{flex-wrap: wrap;gap: 20px;} */
+    .bot3-con h2{font-size: 95px;line-height: 100%;}    
 }
 
 @media only screen and (max-width:1000px) {
@@ -64,6 +67,10 @@
 @media only screen and (max-width:800px){
     .owl-nav{display: none;}
     .carousel-img{padding: 0;}
+    .marq-first ul, .marq-second ul{animation: marq-first 8s linear infinite;}
+
+    .fb-ad-con h3{font-size: 25px;}
+    .fb-ad-con h2{font-size: 20px;}
 }
 
 @media only screen and (max-width:768px) {
@@ -78,7 +85,7 @@
 
 @media only screen and (max-width:600px) {
     body h2{font-size: 50px !important;}
-    .bot3-con ul li img{width: 100%;}
+    /* .bot3-con ul li img{width: 100%;} */
     .bot5-con h2{font-size: 30px!important;}
     .footer {
         padding: 60px 0;
@@ -88,10 +95,13 @@
     .pap-btm1-con h2{
         font-size: 30px !important;
     }
+
+    .fb-ad-con h2{font-size: 20px!important;}
 }
 
 @media only screen and (max-width:500px) {
   .main_img img{width: 300px;}
+  .pap-btm1-con a{width: 305px;font-size: 21px;}
   .foot_con ul li:last-child a {
       word-break: break-word;
   }
