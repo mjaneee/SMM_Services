@@ -328,6 +328,9 @@ animation-play-state: paused;
 			-webkit-animation: marq-second 15s linear infinite;
 			animation: marq-second 15s linear infinite;
 	}
+.marq-second ul:hover{
+animation-play-state: paused;
+}
 
 	/* Move it (define the animation) */
 	@-moz-keyframes marq-second {
