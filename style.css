@@ -277,6 +277,10 @@ ul li {
 		 -webkit-animation: marq-first 15s linear infinite;
 		 animation: marq-first 15s linear infinite;
   }
+
+.marq-first ul:hover{
+animation-play-state: paused;
+}
   
   /* Move it (define the animation) */
 	@-moz-keyframes marq-first {
